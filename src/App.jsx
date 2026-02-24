@@ -41,7 +41,6 @@ function App() {
     expiresIMins: 30,
   };
   const {
-    id,
     email,
     username: responseusername,
     image,
