@@ -24,9 +24,8 @@ const Log = () => {
         if (data?.status >= 200 && data?.status <= 300) {
           setload(false);
           toast.success("Login success");
-          setRes(data?.data);
           localStorage.setItem("token", data?.data?.token);
-          navigate("/Dashboard")
+          navigate("/Dashboard");
           //   localStorage.setItem("refreshToken", data?.data?.refreshToken);
         }
       })
