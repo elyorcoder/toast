@@ -9,7 +9,6 @@ const Log = () => {
   const [username, setDUsername] = useState("donero");
   const [password, setPassword] = useState("ewedon");
   const [load, setload] = useState(false);
-  const [res, setRes] = useState({});
   const handle = (e) => {
     setDUsername(e.target.value.trim());
   };
