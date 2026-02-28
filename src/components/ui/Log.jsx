@@ -25,7 +25,7 @@ const Log = () => {
           setload(false);
           toast.success("Login success");
           localStorage.setItem("token", data?.data?.token);
-          navigate("/Dashboard");
+          navigate("/");
           //   localStorage.setItem("refreshToken", data?.data?.refreshToken);
         }
       })

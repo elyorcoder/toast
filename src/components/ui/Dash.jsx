@@ -1,20 +1,19 @@
 import React from "react";
 import "../../App.css";
-import { useNavigate } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Sidbar from "./Sidbar";
+import Navbar from "./Navbar";
 
 const Dash = () => {
-  const navigate = useNavigate();
   return (
-    <div>
-      <h1 className="hh">Welcome to Dashboard</h1>
-      <button
-        onClick={() => {
-          localStorage.removeItem("token");
-          navigate("/");
-        }}
-      >
-        LogOut
-      </button>
+    <div className="d1">
+      <Sidbar />
+      <div className="d2">
+        <Navbar />
+        <div className="d3">
+          <Outlet />
+        </div>
+      </div>
     </div>
   );
 };
