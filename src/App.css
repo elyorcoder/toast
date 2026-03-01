@@ -1,7 +1,7 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
@@ -154,7 +154,7 @@ button {
   padding: 8px;
   font-size: 13px;
 }
-.t2 td:hover{
+.t2 td:hover {
   background-color: #1a1a1a;
 }
 .t2 thead td {
@@ -169,4 +169,128 @@ button {
   border: none;
   margin: 5px;
   cursor: pointer;
+}
+.shop {
+  width: 100%;
+  height: auto;
+}
+.block {
+  background-image: url("./images/Categories2.png");
+  background-size: cover;
+  width: 90%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  border-radius: 30px;
+  margin: auto;
+}
+.shoph {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #000000;
+}
+
+.shopp {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #9a9a9a;
+}
+.button {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 34px;
+  gap: 10px;
+  width: 132.79px;
+  height: 41px;
+  background: #00a3ff;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.katalog {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.katalog-mini {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color:#1a1a1a;
+  gap: 10px;
+  width: 140px;
+  height: 140px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.katalog-mini:active{
+  background-color: #000;
+}
+.katalogh {
+  margin: 20px 0 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.mahsulotlar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.mahsulotlar-div{
+  width: 200px;
+  height: auto;
+  background-color:#1a1a1a;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mahsulotlar-h{
+  font-size: 15px;
+  margin: 15px;
+}
+.footer{
+  margin-top: 100px;
+  background-color: #000;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
 }

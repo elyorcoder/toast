@@ -21,7 +21,7 @@ const Sidbar = () => {
         </li>
         <li>
           <NavLink className="s3" to="/carts">
-            Carts
+            Shop
           </NavLink>
         </li>
         <li>
